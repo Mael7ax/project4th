@@ -82,7 +82,6 @@ data.setRequestHeader('Content-Type', 'application/json');
 data.send()
 data.onload = () => {
 const characters = JSON.parse(data.response);
-    console.log(characters)
 renderCard(characters);
 }
 
@@ -107,6 +106,14 @@ const renderCard = (characters) => {
     `;
         characterList.appendChild(div);
     })
+}
+
+const bio = new XMLHttpRequest()
+bio.open('GET', '../data/bio.json');
+bio.setRequestHeader('Content-Type', 'application/json');
+bio.send()
+bio.onload = () => {
+    console.log(bio.response);
 }
 
 
