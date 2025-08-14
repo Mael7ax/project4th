@@ -20,6 +20,7 @@ const block = document.querySelector('.child_block');
 const parentBlock = document.querySelector('.parent_block');
 const sizeX = parentBlock.clientWidth - block.offsetWidth;
 const sizeY = parentBlock.clientHeight - block.offsetHeight;
+
 function moveBlock() {
     if (moveY === 0 && moveX < sizeX) {
         moveX++;
@@ -70,5 +71,43 @@ resetBtn.addEventListener('click', () => {
     seconds = 0;
     secondsDisplay.textContent = seconds;
 });
+
+
+// характеры)
+
+
+const data = new XMLHttpRequest()
+data.open('GET', '../data/characters.json');
+data.setRequestHeader('Content-Type', 'application/json');
+data.send()
+data.onload = () => {
+const characters = JSON.parse(data.response);
+    console.log(characters)
+renderCard(characters);
+}
+
+const renderCard = (characters) => {
+    const characterList = document.querySelector('.characters-list');
+
+    characters.forEach(character => {
+        const div = document.createElement('div');
+        div.className = 'character-card';
+
+        div.innerHTML = `
+      <div>
+        <div class="character-photo">
+        <img src="${character.photo}" alt="">
+        </div>
+        <h3>${character.name}</h3>
+        <h5>${character.age}</h5>
+        <div class="description">
+          <p>${character.quote}</p>
+        </div>
+      </div>
+    `;
+        characterList.appendChild(div);
+    })
+}
+
 
 

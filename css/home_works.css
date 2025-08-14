@@ -209,8 +209,9 @@
 .character-card {
     border: 2px solid var(--orange);
     padding: 10px;
-    width: 250px;
+    width: 350px;
     display: flex;
+    color: white;
     flex-direction: column;
     gap: 10px;
     text-align: center;

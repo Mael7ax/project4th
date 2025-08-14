@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Yami Sukehiro",
+    "age": 28,
+    "quote": "Обязательно нужно проверить, есть ли туалетная бумага, прежде чем заходить.\nТот, кто войдёт сюда без неё, подобен птице со сломанными крыльями — она никогда не сможет взлететь в высь, что лежит за пределами туалета.",
+    "photo": "https://i.pinimg.com/736x/b0/fd/6d/b0fd6d5430f1be68d985fd1e780b95c5.jpg"
+  },
+  {
+    "name": "Harry Potter",
+    "age": 40,
+    "quote" : "Expecto Patronum✨",
+    "photo": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/10/Harry-Potter-in-Deathly-Hallows.jpg"
+  },
+  {
+    "name": "Ben 10",
+    "age": 15,
+    "quote": "Я не могу, но я сделаю это!",
+    "photo": "https://cdn.i.haymarketmedia.asia/?n=campaign-asia%2Fcontent%2FBen+10.jpg&h=570&w=855&q=100&v=20250320&c=1"
+  }
+]
