@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="733efc4d-a2ed-4b03-b37a-512a081ff1bd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/data/bio.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/bio.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/home_works.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/home_works.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/characters.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/characters.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/lesson.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lesson.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/work/groups/47-02/lesson7&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/maela/Desktop/project&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -60,6 +61,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maela\Desktop\project" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -150,7 +156,9 @@
       <workItem from="1754759801142" duration="6875000" />
       <workItem from="1755006408082" duration="3032000" />
       <workItem from="1755012386208" duration="2326000" />
-      <workItem from="1755169494984" duration="1821000" />
+      <workItem from="1755169494984" duration="3213000" />
+      <workItem from="1755176625132" duration="37000" />
+      <workItem from="1755771981514" duration="1389000" />
     </task>
     <servers />
   </component>
